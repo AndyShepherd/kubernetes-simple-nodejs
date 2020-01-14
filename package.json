@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeanpsv/kubernetes-simple-nodejs-example.git"
+    "url": "git+https://github.com/andyshepherd/kubernetes-simple-nodejs.git"
   },
   "author": "Jean Vasconcelos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeanpsv/kubernetes-simple-nodejs-example/issues"
+    "url": "https://github.com/andyshepherd/kubernetes-simple-nodejs/issues"
   },
-  "homepage": "https://github.com/jeanpsv/kubernetes-simple-nodejs-example#readme",
+  "homepage": "https://github.com/andyshepherd/kubernetes-simple-nodejs#readme",
   "dependencies": {
     "express": "^4.16.3"
   }
