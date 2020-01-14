@@ -4,11 +4,11 @@
 
 Docker build example
 ```bash
-$ docker build -t jeanpsv/kubernetes-simple-nodejs-example:v1 .
+$ docker build -t andyshepherd/kubernetes-simple-nodejs:v1 .
 ```
 Docker push example
 ```bash
-$ docker push jeanpsv/kubernetes-simple-nodejs-example:v1
+$ docker push andyshepherd/kubernetes-simple-nodejs:v1
 ```
 
 ### Kubernetes
@@ -23,7 +23,7 @@ $ kubectl apply -f hpa.yml
 
 #### Kubernetes deployment
 ```bash
-$ kubectl set image deployment/app-deployment application=jeanpsv/kubernetes-simple-nodejs-example:v2 -n example
+$ kubectl set image deployment/app-deployment application=andyshepherd/kubernetes-simple-nodejs:v2 -n example
 ```
 
 ### K6
