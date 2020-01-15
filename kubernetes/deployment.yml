@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app-deployment
   namespace: example
-  lables:
+  labels:
     app: app-deploy
 spec:
   selector:
