@@ -3,7 +3,12 @@ kind: Deployment
 metadata:
   name: app-deployment
   namespace: example
+  lables:
+    app: app-deploy
 spec:
+  selector:
+    matchLabels:
+      app: app-deploy
   template:
     metadata:
       labels:
